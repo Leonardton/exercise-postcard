@@ -1,0 +1,60 @@
+body {
+	background: black;
+}
+
+.postcard {
+	background: white;
+	width: 500px;
+	height: 350px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	width: 70px;
+	height: 70px;
+	margin: auto;
+}
+.postcard-header h1 {
+	width: 340px;
+	margin: 20px;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p {
+	margin-top: none;
+}
+.body-left,
+.body-right {
+	padding: 5px;
+}
+name {
+	color: gray;
+	border: none;
+	border-bottom: gray;
+}
+p {
+	font-size: medium;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	font-size: x-large;
+	background-color: blue;
+	padding: 50px;
+	margin:0%;
+}
+email {
+	color: gray;
+	border: none;
+	border-bottom: gray;
+}
+comment {
+	color: gray;
+	border: none;
+	border-bottom: gray;
+}
